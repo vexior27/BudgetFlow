@@ -11,6 +11,9 @@ module.exports = {
         poppinsBold: ['Bold'],
         poppinsSemiBold: ['SemiBold'],
         poppinsExtraBold: ['ExtraBold']
+      },
+      height: {
+        '90vh': '90vh'
       }
     },
   },
