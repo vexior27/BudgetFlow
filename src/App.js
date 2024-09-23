@@ -9,11 +9,10 @@ import Home from './components/home/Home';
 
 function App() {
   return (
-    <div className='bg-gray-50 flex flex-row justify-center items-center'>
+    <div className='bg-gray-50 flex flex-row justify-center items-center font-poppinsRegular'>
       < Menu />
       < Home />
     </div>
-    
   );
 }
 
