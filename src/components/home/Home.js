@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import RecentExpenses from './RecentExpenses';
+import RecentExpenses from './recent-expenses/RecentExpenses';
 
 export default function Home() {
    return (
