@@ -21,10 +21,21 @@ export default function Home() {
                < RecentExpensesHeader day="yesterday" />
                </div>
             </div>
-            <div className='quick gap-5 p-5 flex items-start justify-start flex-col'>
+            <div className='quick gap-5 p-5 flex items-start justify-start flex-col text-gray-600'>
                <h1 className='text-gray-600 font-poppinsSemiBold text-xl'>Quick access</h1>
-               <div className='w-full bg-gray-50 rounded-lg p-5 h-full'>
-                  s
+               <div className='w-full bg-gray-50 rounded-lg p-5 h-full flex items-center justify-around flex-row '>
+                  <div className="bg-gray-100 h-2/4 w-auto flex items-center justify-center gap-3 rounded-xl pl-5 pr-5 hover:cursor-pointer hover:scale-110  duration-150 ease-in">
+                     <button className='bg-gray-200 w-15 h-15 rounded-full border-2 border-gray-300 border-dotted font-poppinsMedium text-2xl'>+</button>
+                     <h3 className='font-poppinsSemiBold'>Add expense</h3>
+                  </div>
+                  <div className="bg-gray-100 h-2/4 w-auto flex items-center justify-center gap-3 rounded-xl pl-5 pr-5 hover:cursor-pointer hover:scale-110  duration-150 ease-in">
+                     <button className='bg-gray-200 w-15 h-15 rounded-full border-2 border-gray-300 border-dotted font-poppinsMedium text-2xl'>+</button>
+                     <h3 className='font-poppinsSemiBold'>Add expense</h3>
+                  </div>
+                  <div className="bg-gray-100 h-2/4 w-auto flex items-center justify-center gap-3 rounded-xl pl-5 pr-5 hover:cursor-pointer hover:scale-110  duration-150 ease-in">
+                     <button className='bg-gray-200 w-15 h-15 rounded-full border-2 border-gray-300 border-dotted font-poppinsMedium text-2xl'>+</button>
+                     <h3 className='font-poppinsSemiBold'>Add expense</h3>
+                  </div>
                </div>
             </div>
             <div className='summary gap-5 p-5 flex items-start justify-start flex-col'>

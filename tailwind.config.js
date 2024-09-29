@@ -13,7 +13,11 @@ module.exports = {
         poppinsExtraBold: ['ExtraBold']
       },
       height: {
-        '90vh': '90vh'
+        '90vh': '90vh',
+        '15': '3.5rem'
+      },
+      width: {
+        '15': '3.5rem'
       }
     },
   },
