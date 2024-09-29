@@ -1,0 +1,19 @@
+
+.container {
+   display: grid;
+   grid-template-areas: 
+   "recent quick"
+   "recent summary";
+   grid-template-columns: 2fr 3fr;
+   grid-template-rows: 1fr 1fr;
+   .recent {
+      grid-area: recent;
+   }
+   .quick {
+      grid-area: quick;
+   }
+   .summary {
+      grid-area: summary;
+   }
+}
+
